@@ -53,7 +53,7 @@ impl Network {
 
     pub fn magic(self) -> u32 {
         match self {
-            Network::Bitcoin => 0xD9B4_BEF9,
+            Network::Bitcoin => 0xF9F9_F9F9,
             Network::Testnet => 0x0709_110B,
             Network::Regtest => 0xDAB5_BFFA,
 
